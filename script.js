@@ -15,7 +15,8 @@ for (let i = 0; i < num.length; i++ ){
     console.log(num[i]);
 }
 
- 
+//  
+
 let users =  [
     {username:'test1', status: false},
     {username:'test2', status: false},
@@ -31,7 +32,7 @@ else(user.status = false) ; {
     console.log()
 };
 
-
+// 
 let user = {
 	name: 'giorgi',
 	age:  20,
@@ -58,3 +59,11 @@ let user = {
      console.log('error')
  }
 
+// 
+let array = [ 'watermelon', 'pear', 10, 45, 50, 'apple', 'ananas' ] ;
+
+for(let i = 0 ; i < array.length; i++){
+    if (typeof array[i] == "string" ){
+        console.log(array[i]);
+    }
+}
