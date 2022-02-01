@@ -43,7 +43,7 @@ let user = {
  }
 
 //  
- if(user.name == 'giorgi'){
+ else if(user.name == 'giorgi'){
      console.log("hello girogi")
 
  }
